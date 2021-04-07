@@ -1,6 +1,6 @@
 <template>
   <div  class="home">
-<b-container class="py-3">
+<b-container class="py-3 mx-auto">
       <b-row>
         <b-col cols="2">
         <router-link class="text-decoration-none" to="/"><h5 class="font-weight-bold text-dark text-left py-1">MY BUSINESS</h5></router-link>
@@ -66,7 +66,7 @@
       </b-row>
 </b-container>
 
-<b-container class="pt-5">
+<b-container class="pt-5 mx-auto">
 <b-row class="pt-5">
 <b-col cols="1">
 <div class="pt-3">
@@ -81,7 +81,7 @@
 </b-row>
 </b-container>
 
-<b-container>
+<b-container class="mx-auto">
 <b-row>
 <b-col cols="1"></b-col>
 <b-col cols="7" class="py-5 px-4">
@@ -97,7 +97,7 @@
 </b-row>
 </b-container>
 
-<b-container class="pb-5 mb-5">
+<b-container class="pb-5 mb-5 mx-auto">
 <b-row>
 <b-col cols="8" class="pr-0">
 <div class="bg-image1">
@@ -119,7 +119,7 @@
 </b-container>
 
 <b-container fluid class="bg-light">
-<b-container>
+<b-container class="mx-auto">
 <b-row>
 <b-col cols="12" class="p-5">
 <h2 class="text-center font-weight-bold mb-3">Oue Expertises</h2>
@@ -153,7 +153,7 @@
 </b-container>
 
 <b-container fluid class="bg-white">
-<b-container>
+<b-container class="mx-auto">
 <b-row>
 <b-col cols="12" sm="8">
 <ul class="py-3 pl-0">
@@ -200,7 +200,7 @@
 </b-container>
 
 <b-container fluid class="bg-dark py-3">
-<b-container>
+<b-container class="mx-auto">
 <b-row>
 <b-col cols="12" sm="6">
  <router-link class="text-decoration-none" to="/">
